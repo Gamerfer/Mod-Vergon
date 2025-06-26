@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial",
+	"version": "${version}",
+	"name": "TUTORIAL",
+	"description": "Este mod es un experimento de estudio de fer",
+	"authors": [
+		"Gamerfer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/nose"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorial/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gamerfer.tutorial_mod.TUTORIAL"
+		],
+		"fabric-datagen": [
+			"net.gamerfer.tutorial_mod.TUTORIALDataGenerator"
+		],
+		"client": [
+			"net.gamerfer.tutorial_mod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorial.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
