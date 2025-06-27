@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorial:fatass_block",
+    "tutorial:raw_fatass_block",
+    "tutorial:fatass_ore",
+    "tutorial:fatass_deepslate_ore"
+  ]
+}

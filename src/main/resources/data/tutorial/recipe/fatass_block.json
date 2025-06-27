@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+      "#": {
+        "item": "tutorial:fatass"
+      }
+    },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "tutorial:fatass_block"
+  }
+}

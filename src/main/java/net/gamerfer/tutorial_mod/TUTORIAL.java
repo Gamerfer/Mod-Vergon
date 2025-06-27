@@ -2,6 +2,9 @@ package net.gamerfer.tutorial_mod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gamerfer.tutorial_mod.block.ModBlocks;
+import net.gamerfer.tutorial_mod.item.ModItemGroup;
+import net.gamerfer.tutorial_mod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +16,9 @@ public class TUTORIAL implements ModInitializer {
 	@Override
 
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItem();
+		ModBlocks.registerModBlocks();
 	}
 }

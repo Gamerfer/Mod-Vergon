@@ -1,0 +1,14 @@
+{
+  "item.tutorial.fatass": "Fatass",
+  "item.tutorial.raw_fatass": "Raw Fatass",
+  "item.tutorial.chisel": "Chisel",
+
+  "block.tutorial.fatass_block": "Fatass Block",
+  "block.tutorial.raw_fatass_block": "Raw Fatass Block",
+  "block.tutorial.fatass_ore": "Fatass Ore",
+  "block.tutorial.fatass_deepslate_ore": "Fatass Deepslate Ore",
+
+  "itemgroup.tutorial.fatass_items": "Fatass Items",
+  "itemgroup.tutorial.fatass_blocks": "Fatass Blocks"
+}
+
